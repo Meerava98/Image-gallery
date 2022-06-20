@@ -1,0 +1,38 @@
+html, body{
+    margin:20px;
+    overflow-x:hidden;
+}
+img{
+    width: 140px;
+    height: 100px;
+    margin: 10px -6px;
+    object-fit: cover;
+}
+section{
+    position: absolute;
+}
+.row{
+    text-align: center;
+}
+.selected{
+    background-color: blue;
+    /* padding: 4px; */
+}
+#parent{
+    display: flex;
+    justify-content: space-around;
+}
+*{
+    box-sizing: content-box !important;
+}
+ 
+@media screen and (max-width: 551px) {
+    #parent{
+        flex-direction: column;
+    }
+  }
+  
+
+    
+
+
